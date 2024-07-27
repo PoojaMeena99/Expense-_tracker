@@ -18,7 +18,7 @@ const ExpenseForm = ({ addExpense }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
+      <input 
         type="text"
         placeholder="Name"
         value={name}
@@ -35,7 +35,7 @@ const ExpenseForm = ({ addExpense }) => {
         onChange={(e) => setCategory(e.target.value)}
         required
       />
-      
+
          <br></br>
          <br></br>
       <input
